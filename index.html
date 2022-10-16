@@ -6,9 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <!-- Add the slick-theme.css if you want default styling -->
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
   <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="main.css">
@@ -17,302 +21,546 @@
 <body>
 
   <!-- Nav -->
-  <nav class="navbar navbar-expand-lg bg-light">
+  <div class=" bg-light">
     <div class="container">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
-        </ul>
-
-      </div>
-    </div>
-  </nav>
-
-  <!-- Home Section -->
-  <section class="container mt-5">
-    <div class="row align-items-center">
-      <div class="col-6">
-        <h6>Get Started</h6>
-        <h1>Make More Time From the Work That Matters Most</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem atque labore unde quos similique molestiae
-          accusamus tempore sit cumque iure ullam at qui repudiandae asperiores illum perspiciatis, ratione quasi
-          aperiam?
-        </p>
-        <div class="">
-          <button class="btn btn-primary">Call Now</button>
-          <button class="btn btn-primary">Email</button>
-        </div>
-      </div>
-      <div class="col-6">
-        <img src="./img/home-img.svg" class="w-75" alt="">
-      </div>
-    </div>
-  </section>
-
-  <!-- Get Services -->
-  <section class=" container mt-5">
-    <div class="row justify-content-between">
-      <div class="col-4">
-        <h6>Get Started</h6>
-        <h1>Make More Time From the Work That Matters Most</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem atque labore unde quos similique molestiae
-          accusamus tempore sit cumque iure ullam at qui repudiandae asperiores illum perspiciatis, ratione quasi
-          aperiam?
-        </p>
-        <div class="">
-          <button class="btn btn-primary">Call Now</button>
-        </div>
-      </div>
-      <div class="col-6">
-        <div class="row g-4">
-          <div class="col-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title mb-3">Customer Support</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+        
               </div>
             </div>
-          </div>
-          <div class="col-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title mb-3">Customer Support</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              </div>
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title mb-3">Customer Support</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              </div>
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title mb-3">Customer Support</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              </div>
-            </div>
-          </div>
+          </nav>
         </div>
       </div>
     </div>
-  </section>
-
-
-  <!-- Watch Video -->
-  <section class="container mt-5">
-    <div class="row align-items-center">
-      <div class="col-6">
-        <img
-          src="https://images.unsplash.com/photo-1664058986963-5f531744c710?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2346&q=80"
-          class="w-75 rounded rounded-3" alt="">
-      </div>
-      <div class="col-6">
-        <h6>Get Started</h6>
-        <h1>Make More Time From the Work That Matters Most</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem atque labore unde quos similique molestiae
-          accusamus tempore sit cumque iure ullam at qui repudiandae asperiores illum perspiciatis, ratione quasi
-          aperiam?
-        </p>
-        <div class="">
-          <button class="btn btn-primary">Call Now</button>
-          <button class="btn btn-primary">Email</button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Portfolio -->
-  <section class="container mt-5">
-    <div class="row mb-3">
-      <div class="col-6">
-        <div class="">
-          <h6>Get Started</h6>
-          <h4>Make More Time From the Work That Matters Most</h4>
-        </div>
-      </div>
-      <div class="col-6">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus non fugit, commodi nemo ipsa sapiente,
-        expedita modi optio laboriosam reprehenderit nam officia quia a culpa voluptatibus facere inventore illo
-        deserunt.
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <div class="reg">
-          <div class="card mx-3">
-            <img
-              src="https://images.unsplash.com/photo-1664030311590-3162a492ab1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80"
-              class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+  
+  <main class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+          <!-- Home Section -->
+        <section class="container mt-5 mb-15">
+          <div class="row flex-column-reverse flex-lg-row align-items-center">
+            <div class="col-lg-6">
+              <h6>Get Started</h6>
+              <h1>Make More Time From the Work That Matters Most</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem atque labore unde quos similique molestiae
+                accusamus tempore sit cumque iure ullam at qui repudiandae asperiores illum perspiciatis, ratione quasi
+                aperiam?
+              </p>
+              <div class="">
+                <button class="btn btn-primary">Call Now</button>
+                <button class="btn btn-primary">Email</button>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img src="./img/home-img.svg" class="w-75" alt="">
             </div>
           </div>
-          <div class="card mx-3">
-            <img
-              src="https://images.unsplash.com/photo-1664030311590-3162a492ab1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80"
-              class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card mx-3">
-            <img
-              src="https://images.unsplash.com/photo-1664030311590-3162a492ab1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80"
-              class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card mx-3">
-            <img
-              src="https://images.unsplash.com/photo-1664030311590-3162a492ab1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80"
-              class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card mx-3">
-            <img
-              src="https://images.unsplash.com/photo-1664030311590-3162a492ab1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80"
-              class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-      </div>
+        </section>
 
-    </div>
-  </section>
-
-   <!-- Our Teams -->
-   <section class="container mt-5">
-    <div class="row mb-3">
-      <div class="col-12">
-        <div class="text-center">
-          <h6>Get Started</h6>
-          <h4>Make More Time From the Work That Matters Most</h4>
-        </div>
-      </div>
-    </div>
-    <div class="row g-3">
-      <div class="col-6">
-        <div class="card mb-3">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1364&q=80" class="img-fluid rounded-start" alt="...">
+        <!-- Get Services -->
+        <section class=" container mt-5 mb-15">
+          <div class="row justify-content-between">
+            <div class="col-lg-4 mb-5 mb-lg-0">
+              <h6>Get Started</h6>
+              <h1>Make More Time From the Work That Matters Most</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem atque labore unde quos similique molestiae
+                accusamus tempore sit cumque iure ullam at qui repudiandae asperiores illum perspiciatis, ratione quasi
+                aperiam?
+              </p>
+              <div class="">
+                <button class="btn btn-primary">Call Now</button>
+              </div>
             </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <div class="col-lg-6">
+              <div class="row g-4">
+                <div class="col-lg-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title mb-3">Customer Support</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title mb-3">Customer Support</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title mb-3">Customer Support</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title mb-3">Customer Support</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="col-6">
-        <div class="card mb-3">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1364&q=80" class="img-fluid rounded-start" alt="...">
+        </section>
+
+
+        <!-- Watch Video -->
+        <section class="container mt-5 mb-15">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <img
+                src="https://images.unsplash.com/photo-1664058986963-5f531744c710?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2346&q=80"
+                class="w-100 mb-5 mb-lg-0 rounded rounded-3" alt="">
             </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <div class="col-lg-6">
+              <h6>Get Started</h6>
+              <h1>Make More Time From the Work That Matters Most</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem atque labore unde quos similique molestiae
+                accusamus tempore sit cumque iure ullam at qui repudiandae asperiores illum perspiciatis, ratione quasi
+                aperiam?
+              </p>
+              <div class="">
+                <button class="btn btn-primary">Call Now</button>
+                <button class="btn btn-primary">Email</button>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="col-6">
-        <div class="card mb-3">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1364&q=80" class="img-fluid rounded-start" alt="...">
+        </section>
+
+
+        <!-- Portfolio -->
+        <section class="container mt-5 mb-15">
+          <div class="row mb-3">
+            <div class="col-lg-6">
+              <div class="">
+                <h6>Get Started</h6>
+                <h4>Make More Time From the Work That Matters Most</h4>
+              </div>
             </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <div class="col-lg-6">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus non fugit, commodi nemo ipsa sapiente,
+              expedita modi optio laboriosam reprehenderit nam officia quia a culpa voluptatibus facere inventore illo
+              deserunt.
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="reg">
+                <div class="card mx-3">
+                  <img
+                    src="https://images.unsplash.com/photo-1664030311590-3162a492ab1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                      content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="card mx-3">
+                  <img
+                    src="https://images.unsplash.com/photo-1664030311590-3162a492ab1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                      content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="card mx-3">
+                  <img
+                    src="https://images.unsplash.com/photo-1664030311590-3162a492ab1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                      content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="card mx-3">
+                  <img
+                    src="https://images.unsplash.com/photo-1664030311590-3162a492ab1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                      content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="card mx-3">
+                  <img
+                    src="https://images.unsplash.com/photo-1664030311590-3162a492ab1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                      content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Our Teams -->
+        <section class="container mt-5 mb-5 mb-15">
+          <div class="row mb-3">
+            <div class="col-12">
+              <div class="text-center">
+                <h6>Get Started</h6>
+                <h4>Make More Time From the Work That Matters Most</h4>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="col-6">
-        <div class="card mb-3">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1364&q=80" class="img-fluid rounded-start" alt="...">
+          <div class="row g-3">
+            <div class="col-lg-6">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-5">
+                    <img src="https://images.unsplash.com/photo-1661956601349-f61c959a8fd4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80" class="img-fluid card-img-responsive rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-7">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <div class="col-lg-6">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-5">
+                    <img src="https://images.unsplash.com/photo-1661956601349-f61c959a8fd4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80" class="img-fluid card-img-responsive rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-7">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-5">
+                    <img src="https://images.unsplash.com/photo-1661956601349-f61c959a8fd4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80" class="img-fluid card-img-responsive rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-7">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-5">
+                    <img src="https://images.unsplash.com/photo-1661956601349-f61c959a8fd4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80" class="img-fluid card-img-responsive rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-7">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+
+
+        <!-- Testimoanl -->
+        <section class="container mb-5 mb-15">
+          <div class="row mb-5">
+            <div class="col-12">
+              <div class="text-center">
+                <h6>Testimonial</h6>
+                <h1>Meet Our Team of Experts</h1>
               </div>
             </div>
           </div>
-        </div>
+          <div class="row gy-5 gy-lg-0">
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  <div class="card-icon">
+                    <i class="fa-solid fa-quote-left"></i>
+                  </div>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est omnis eaque tenetur illo nesciunt vel itaque obcaecati natus optio reiciendis fugit, molestiae voluptate cupiditate laudantium odit excepturi, nobis modi ratione.
+                  </p>
+                  <div class="d-flex align-items-center">
+                    <img class="card-profile-img me-2" src="https://images.unsplash.com/photo-1665172653767-795eb690da50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" alt="">
+                    <div class="">
+                      <h5 class="mb-0">Apple</h5>
+                      <h6 class="small">Oct 8, 2022</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  <div class="card-icon">
+                    <i class="fa-solid fa-quote-left"></i>
+                  </div>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est omnis eaque tenetur illo nesciunt vel itaque obcaecati natus optio reiciendis fugit, molestiae voluptate cupiditate laudantium odit excepturi, nobis modi ratione.
+                  </p>
+                  <div class="d-flex align-items-center">
+                    <img class="card-profile-img me-2" src="https://images.unsplash.com/photo-1665172653767-795eb690da50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" alt="">
+                    <div class="">
+                      <h5 class="mb-0">Apple</h5>
+                      <h6 class="small">Oct 8, 2022</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  <div class="card-icon">
+                    <i class="fa-solid fa-quote-left"></i>
+                  </div>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est omnis eaque tenetur illo nesciunt vel itaque obcaecati natus optio reiciendis fugit, molestiae voluptate cupiditate laudantium odit excepturi, nobis modi ratione.
+                  </p>
+                  <div class="d-flex align-items-center">
+                    <img class="card-profile-img me-2" src="https://images.unsplash.com/photo-1665172653767-795eb690da50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" alt="">
+                    <div class="">
+                      <h5 class="mb-0">Apple</h5>
+                      <h6 class="small">Oct 8, 2022</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="container mb-5 mb-15">
+          <div class="row mb-5">
+            <div class="col-12">
+              <div class="text-center">
+                <h6>Pricing</h6>
+                <h1>Choose The Right Plan For Your Business</h1>
+              </div>
+            </div>
+          </div>
+          <div class="row gy-5 gy-lg-0">
+            <div class="col-lg-4">
+              <div class="shadow p-4 rounded-4">
+                <div class=" d-flex justify-content-between mb-4">
+                  <div class="">
+                    <h4>Basic</h4>
+                    <p>Basic Price</p>
+                  </div>
+                  <div class="">
+                    <h4>Basic</h4>
+                    <p>Basic Price</p>
+                  </div>
+                </div>
+                <hr>
+                <div class="mb-4">
+                  <div class=" d-flex justify-content-between mb-2">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><i class="fa-solid fa-check"></i></span>
+                  </div>
+                  <div class=" d-flex justify-content-between mb-2">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><i class="fa-solid fa-check"></i></span>
+                  </div>
+                  <div class=" d-flex justify-content-between mb-2">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><i class="fa-solid fa-check"></i></span>
+                  </div>
+                  <div class=" d-flex justify-content-between mb-2">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><i class="fa-solid fa-check"></i></span>
+                  </div>
+                  <div class=" d-flex justify-content-between mb-2">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><i class="fa-solid fa-check"></i></span>
+                  </div>
+                </div>
+                <button class="btn btn-primary w-100 rounded-pill">Order Now</button>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="shadow p-4 rounded-4">
+                <div class=" d-flex justify-content-between mb-4">
+                  <div class="">
+                    <h4>Basic</h4>
+                    <p>Basic Price</p>
+                  </div>
+                  <div class="">
+                    <h4>Basic</h4>
+                    <p>Basic Price</p>
+                  </div>
+                </div>
+                <hr>
+                <div class="mb-4">
+                  <div class=" d-flex justify-content-between mb-2">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><i class="fa-solid fa-check"></i></span>
+                  </div>
+                  <div class=" d-flex justify-content-between mb-2">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><i class="fa-solid fa-check"></i></span>
+                  </div>
+                  <div class=" d-flex justify-content-between mb-2">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><i class="fa-solid fa-check"></i></span>
+                  </div>
+                  <div class=" d-flex justify-content-between mb-2">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><i class="fa-solid fa-check"></i></span>
+                  </div>
+                  <div class=" d-flex justify-content-between mb-2">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><i class="fa-solid fa-check"></i></span>
+                  </div>
+                </div>
+                <button class="btn btn-primary w-100 rounded-pill">Order Now</button>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="shadow p-4 rounded-4">
+                <div class=" d-flex justify-content-between mb-4">
+                  <div class="">
+                    <h4>Basic</h4>
+                    <p>Basic Price</p>
+                  </div>
+                  <div class="">
+                    <h4>Basic</h4>
+                    <p>Basic Price</p>
+                  </div>
+                </div>
+                <hr>
+                <div class="mb-4">
+                  <div class=" d-flex justify-content-between mb-2">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><i class="fa-solid fa-check"></i></span>
+                  </div>
+                  <div class=" d-flex justify-content-between mb-2">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><i class="fa-solid fa-check"></i></span>
+                  </div>
+                  <div class=" d-flex justify-content-between mb-2">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><i class="fa-solid fa-check"></i></span>
+                  </div>
+                  <div class=" d-flex justify-content-between mb-2">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><i class="fa-solid fa-check"></i></span>
+                  </div>
+                  <div class=" d-flex justify-content-between mb-2">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><i class="fa-solid fa-check"></i></span>
+                  </div>
+                </div>
+                <button class="btn btn-primary w-100 rounded-pill">Order Now</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+        <footer class="container">
+          <div class="row">
+            <div class="col">
+              <div class="text-center mb-5">
+                <h1>Lorem ipsum dolor sit amet, Ducimus esse nulla quae quod!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, tempora?</p>
+              </div>
+              <div class="text-center mb-5">
+                <button class="btn btn-danger rounded-pill"><i class="fa-brands fa-apple"></i> Download</button>
+                <button class="btn btn-success rounded-pill"><i class="fa-brands fa-apple"></i> Download</button>
+              </div>
+              <div class="text-center">
+                <a href="#" class="p-2">Home</a>
+                <a href="#" class="p-2">About</a>
+                <a href="#" class="p-2">Content</a>
+              </div>
+            </div>
+          </div>
+          <hr class=" my-5">
+          <div class="d-flex justify-content-between mb-5">
+            <h6>&copy; Digital Hunter</h6>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+            </div>
+          </div>
+        </footer>
       </div>
-      
     </div>
-  </section>
+  </main>
+
+  
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -328,8 +576,8 @@
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
+            slidesToShow: 2,
+            slidesToScroll: 2,
             infinite: true,
             dots: true
           }

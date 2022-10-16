@@ -1,3 +1,46 @@
-.slick-prev:before {
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.slick-prev:before,
+.slick-next:before
+ {
     color: #dc2626!important;
 }
+.card-profile-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 999999px;
+}
+
+.card-icon {
+    width: 50px;
+    height: 50px;
+    background: #dc2626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 99999px;
+    color: #fff;
+    margin-top: -40px;
+}
+
+.mb-15 {
+    margin-bottom: 15rem!important;
+}
+
+@media screen and (max-width: 768px) {
+    .slick-prev,
+    .slick-next{
+        display: none!important;
+    }
+}
+
+/* @media screen and (max-width: 600px) {
+    .card-img-responsive {
+        width: 100%!important;
+        height: 50%!important;
+        object-fit: cover;
+    }
+} */
