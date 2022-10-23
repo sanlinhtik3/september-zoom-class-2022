@@ -1,3 +1,35 @@
+html[class="dark"] {
+    --dark: #0f172a;
+    --color: #f1f5f9;
+    --bg-gray-900: #111827;
+}
+
+body {
+    background-color: var(--dark);
+    color: var(--color);
+}
+
+.card {
+    background-color: var(--dark);
+}
+
+.nav-dark-color {
+    background-color: var(--bg-gray-900)!important;
+    
+}
+
+.nav-dark-color .nav-link {
+    color: var(--color);
+}
+
+.nav-dark-color .nav-link.active {
+    color: var(--color);
+}
+
+.nav-dark-color .navbar-brand {
+    color: var(--color);
+}
+
 * {
     font-family: 'Quicksand', sans-serif;
 }
