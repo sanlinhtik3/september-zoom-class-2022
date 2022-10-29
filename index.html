@@ -8,56 +8,51 @@
   <title>Document</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
   <!-- Add the slick-theme.css if you want default styling -->
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <!-- Add the slick-theme.css if you want default styling -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
   <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
 
   <!-- Nav -->
-  <div class="bg-light nav-dark-color">
+  <div class="bg-light animate-nav animate__animated" style="z-index: 3;">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-10">
           <nav class="navbar navbar-expand-lg">
             <div class="container">
               <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li>
-                        <hr class="dropdown-divider">
-                      </li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                    <a class="nav-link" href="#services">Services</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#testimonal">Testimonal</a>
                   </li>
                 </ul>
-        
+
               </div>
             </div>
           </nav>
@@ -65,40 +60,42 @@
       </div>
     </div>
   </div>
-  
+
   <main class="container">
     <div class="row justify-content-center">
       <div class="col-lg-10">
-          <!-- Home Section -->
-        <section class="container mt-5 mb-15">
+        <!-- Home Section -->
+        <section id="home" class="container mt-5 mb-15">
           <div class="row flex-column-reverse flex-lg-row align-items-center">
             <div class="col-lg-6">
-              <h6>Get Started</h6>
-              <h1>Make More Time From the Work That Matters Most</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem atque labore unde quos similique molestiae
+              <h6 class="aa">Get Started</h6>
+              <h1 class="aa">Make More Time From the Work That Matters Most</h1>
+              <p class="aa">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem atque labore unde quos similique
+                molestiae
                 accusamus tempore sit cumque iure ullam at qui repudiandae asperiores illum perspiciatis, ratione quasi
                 aperiam?
               </p>
-              <div class="">
+              <div class="aa">
                 <button class="btn btn-primary">Call Now</button>
                 <button class="btn btn-primary">Email</button>
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 aa">
               <img src="./img/home-img.svg" class="w-75" alt="">
             </div>
           </div>
         </section>
 
         <!-- Get Services -->
-        <section class=" container mt-5 mb-15">
+        <section id="services" class=" container mt-5 mb-15">
           <div class="row justify-content-between">
             <div class="col-lg-4 mb-5 mb-lg-0">
               <h6>Get Started</h6>
               <h1>Make More Time From the Work That Matters Most</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem atque labore unde quos similique molestiae
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem atque labore unde quos similique
+                molestiae
                 accusamus tempore sit cumque iure ullam at qui repudiandae asperiores illum perspiciatis, ratione quasi
                 aperiam?
               </p>
@@ -158,7 +155,8 @@
               <h6>Get Started</h6>
               <h1>Make More Time From the Work That Matters Most</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem atque labore unde quos similique molestiae
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem atque labore unde quos similique
+                molestiae
                 accusamus tempore sit cumque iure ullam at qui repudiandae asperiores illum perspiciatis, ratione quasi
                 aperiam?
               </p>
@@ -172,7 +170,7 @@
 
 
         <!-- Portfolio -->
-        <section class="container mt-5 mb-15">
+        <section id="portfolio" class="container mt-5 mb-15">
           <div class="row mb-3">
             <div class="col-lg-6">
               <div class="">
@@ -195,7 +193,8 @@
                     class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's
                       content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
@@ -206,7 +205,8 @@
                     class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's
                       content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
@@ -217,7 +217,8 @@
                     class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's
                       content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
@@ -228,7 +229,8 @@
                     class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's
                       content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
@@ -239,7 +241,8 @@
                     class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's
                       content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
@@ -265,12 +268,15 @@
               <div class="card mb-3">
                 <div class="row g-0">
                   <div class="col-md-5">
-                    <img src="https://images.unsplash.com/photo-1661956601349-f61c959a8fd4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80" class="img-fluid card-img-responsive rounded-start" alt="...">
+                    <img
+                      src="https://images.unsplash.com/photo-1661956601349-f61c959a8fd4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80"
+                      class="img-fluid card-img-responsive rounded-start" alt="...">
                   </div>
                   <div class="col-md-7">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
                       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                   </div>
@@ -281,12 +287,15 @@
               <div class="card mb-3">
                 <div class="row g-0">
                   <div class="col-md-5">
-                    <img src="https://images.unsplash.com/photo-1661956601349-f61c959a8fd4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80" class="img-fluid card-img-responsive rounded-start" alt="...">
+                    <img
+                      src="https://images.unsplash.com/photo-1661956601349-f61c959a8fd4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80"
+                      class="img-fluid card-img-responsive rounded-start" alt="...">
                   </div>
                   <div class="col-md-7">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
                       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                   </div>
@@ -297,12 +306,15 @@
               <div class="card mb-3">
                 <div class="row g-0">
                   <div class="col-md-5">
-                    <img src="https://images.unsplash.com/photo-1661956601349-f61c959a8fd4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80" class="img-fluid card-img-responsive rounded-start" alt="...">
+                    <img
+                      src="https://images.unsplash.com/photo-1661956601349-f61c959a8fd4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80"
+                      class="img-fluid card-img-responsive rounded-start" alt="...">
                   </div>
                   <div class="col-md-7">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
                       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                   </div>
@@ -313,25 +325,28 @@
               <div class="card mb-3">
                 <div class="row g-0">
                   <div class="col-md-5">
-                    <img src="https://images.unsplash.com/photo-1661956601349-f61c959a8fd4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80" class="img-fluid card-img-responsive rounded-start" alt="...">
+                    <img
+                      src="https://images.unsplash.com/photo-1661956601349-f61c959a8fd4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80"
+                      class="img-fluid card-img-responsive rounded-start" alt="...">
                   </div>
                   <div class="col-md-7">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
                       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            
+
           </div>
         </section>
 
 
         <!-- Testimoanl -->
-        <section class="container mb-5 mb-15">
+        <section id="testimonal" class="container pt-5 mb-5 mb-15">
           <div class="row mb-5">
             <div class="col-12">
               <div class="text-center">
@@ -348,10 +363,14 @@
                     <i class="fa-solid fa-quote-left"></i>
                   </div>
                   <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est omnis eaque tenetur illo nesciunt vel itaque obcaecati natus optio reiciendis fugit, molestiae voluptate cupiditate laudantium odit excepturi, nobis modi ratione.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est omnis eaque tenetur illo nesciunt vel
+                    itaque obcaecati natus optio reiciendis fugit, molestiae voluptate cupiditate laudantium odit
+                    excepturi, nobis modi ratione.
                   </p>
                   <div class="d-flex align-items-center">
-                    <img class="card-profile-img me-2" src="https://images.unsplash.com/photo-1665172653767-795eb690da50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" alt="">
+                    <img class="card-profile-img me-2"
+                      src="https://images.unsplash.com/photo-1665172653767-795eb690da50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+                      alt="">
                     <div class="">
                       <h5 class="mb-0">Apple</h5>
                       <h6 class="small">Oct 8, 2022</h6>
@@ -367,10 +386,14 @@
                     <i class="fa-solid fa-quote-left"></i>
                   </div>
                   <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est omnis eaque tenetur illo nesciunt vel itaque obcaecati natus optio reiciendis fugit, molestiae voluptate cupiditate laudantium odit excepturi, nobis modi ratione.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est omnis eaque tenetur illo nesciunt vel
+                    itaque obcaecati natus optio reiciendis fugit, molestiae voluptate cupiditate laudantium odit
+                    excepturi, nobis modi ratione.
                   </p>
                   <div class="d-flex align-items-center">
-                    <img class="card-profile-img me-2" src="https://images.unsplash.com/photo-1665172653767-795eb690da50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" alt="">
+                    <img class="card-profile-img me-2"
+                      src="https://images.unsplash.com/photo-1665172653767-795eb690da50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+                      alt="">
                     <div class="">
                       <h5 class="mb-0">Apple</h5>
                       <h6 class="small">Oct 8, 2022</h6>
@@ -386,10 +409,14 @@
                     <i class="fa-solid fa-quote-left"></i>
                   </div>
                   <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est omnis eaque tenetur illo nesciunt vel itaque obcaecati natus optio reiciendis fugit, molestiae voluptate cupiditate laudantium odit excepturi, nobis modi ratione.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est omnis eaque tenetur illo nesciunt vel
+                    itaque obcaecati natus optio reiciendis fugit, molestiae voluptate cupiditate laudantium odit
+                    excepturi, nobis modi ratione.
                   </p>
                   <div class="d-flex align-items-center">
-                    <img class="card-profile-img me-2" src="https://images.unsplash.com/photo-1665172653767-795eb690da50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" alt="">
+                    <img class="card-profile-img me-2"
+                      src="https://images.unsplash.com/photo-1665172653767-795eb690da50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+                      alt="">
                     <div class="">
                       <h5 class="mb-0">Apple</h5>
                       <h6 class="small">Oct 8, 2022</h6>
@@ -560,11 +587,17 @@
     </div>
   </main>
 
-  
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"
+    integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
   <script src="./JS/main.js"></script>
   <script>
     $('.reg').slick({

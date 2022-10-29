@@ -17,7 +17,7 @@ const changeThemeToLight = () => {
 darkMode.addEventListener('click', () => {
     let theme = localStorage.getItem('data-theme')
     console.log(theme)
-    if(theme === "dark") {
+    if (theme === "dark") {
         changeThemeToLight()
     } else {
         changeThemeToDark()
@@ -25,8 +25,44 @@ darkMode.addEventListener('click', () => {
 })
 
 let theme = localStorage.getItem('data-theme')
-if(theme === "dark") {
+if (theme === "dark") {
     changeThemeToDark()
 } else {
     changeThemeToLight()
 }
+
+
+// Animate Navbar
+const AnimateNav = document.querySelector(".animate-nav");
+var waypoint = new Waypoint({
+    element: document.getElementById("services"),
+    handler: function (direction) {
+        if(direction === 'down') {
+          AnimateNav.classList.add(
+            "position-fixed",
+            "bg-white",
+            "shadow-lg",
+            "w-100",
+            "animate__fadeInDown"
+          );
+        } else {
+            AnimateNav.classList.remove(
+              "position-fixed",
+              "bg-white",
+              "shadow-lg",
+              "w-100",
+              "animate__fadeInDown"
+            );
+        }
+    },
+    offset: "5%",
+});
+
+
+
+// Scroll Reveal
+ScrollReveal().reveal(".aa", {
+  origin: "bottom",
+  distance: "30px",
+  interval: 300,
+});
